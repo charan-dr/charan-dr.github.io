@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Charan DR, AI & ML Student">
+    <meta name="keywords" content="Portfolio, AI, ML, Web Developer, Resume">
+    <title>Charan DR | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animate-fade-in">Charan DR</h1>
+            <p class="animate-slide-up">AI & ML Student at PESITM, Shimoga</p>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="animate-slide-up">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Charan DR, currently pursuing AI & ML at PESITM. I am passionate about programming, AI, and automation.</p>
+            <button class="btn view-resume-btn">View Resume</button>
+            <a href="charan.pdf" download class="btn download-resume-btn">Download Resume</a>
+        </div>
+    </section>
+
+   
+
+    <section id="skills" class="animate-slide-up">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>Python</span>
+                <span>Java</span>
+                <span>C Programming</span>
+                <span>AI & ML</span>
+                <!-- Add more skills -->
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Charan DR | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="charan.pdf" class="resume-viewer"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
